@@ -1,0 +1,2 @@
+# Standalone crate: do not inherit the parent repository configuration.
+edition = "2021"

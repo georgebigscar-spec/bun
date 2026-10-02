@@ -1,0 +1,17 @@
+[package]
+name = "egui_html_view"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.95"
+description = "HTML/CSS view widget for egui: scrolling, zoom, CSS styles and text selection"
+license = "MIT OR Apache-2.0"
+
+# Standalone crate: not part of the Bun cargo workspace.
+[workspace]
+
+[dependencies]
+egui = "0.36"
+scraper = "0.27"
+
+[dev-dependencies]
+eframe = "0.36"
